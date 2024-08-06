@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;}
+
+
+.container {
+  width: 100%;
+  margin: 50px auto;
+  padding: 0 20px; 
+}
+
+
+@media (max-width: 575.98px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1040px;
+  }
+}
+
+.starter-section header {
+    width: 100%;
+    margin: 30px auto;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.starter-section header img {
+    width: 100%;
+}
+
+.starter-section h1 {
+    font-family: "Young Serif", serif;
+    font-size: 3.4rem;
+    font-weight: 100;
+    color: hsl(24, 5%, 18%);
+}
+
+.starter-section p {
+    font-size: 1.3rem;
+    margin: 25px 0px 30px 0px;
+    color: hsl(30, 10%, 34%);
+}
+
+.prepair-section {
+    background-color: hsl(330, 100%, 98%);
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 1.4;
+    margin: 40px 0px;
+}
+.prepair-section h3 {
+    color: hsl(332, 51%, 32%);
+    font-size: 1.7;
+    margin-bottom: 15px;
+}
+
+.prepair-section ul {
+
+    line-height: 2;
+    list-style-position: inside;
+}
+
+.prepair-section ul li {
+    position: relative;
+    padding: 0em 1em; 
+    color: hsl(30, 10%, 34%);
+} 
+ul li::marker {
+    font-size: 0.9em; /* Adjust the size of the bullet */
+    color: hsl(332, 51%, 32%); /* Change the color of the bullet */
+}
