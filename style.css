@@ -2,15 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Outfit", sans-serif;}
-
+  font-family: "Outfit", sans-serif;
+}
 
 .container {
   width: 100%;
-  margin: 50px auto;
-  padding: 0 20px; 
+  margin: 50px auto 10px auto;
+  padding: 0 20px;
 }
-
 
 @media (max-width: 575.98px) {
   .container {
@@ -43,54 +42,165 @@
 }
 
 .starter-section header {
-    width: 100%;
-    margin: 30px auto;
-    border-radius: 30px;
-    overflow: hidden;
+  width: 100%;
+  margin: 30px auto;
+  border-radius: 30px;
+  overflow: hidden;
 }
 
 .starter-section header img {
-    width: 100%;
+  width: 100%;
 }
 
 .starter-section h1 {
-    font-family: "Young Serif", serif;
-    font-size: 3.4rem;
-    font-weight: 100;
-    color: hsl(24, 5%, 18%);
+  font-family: "Young Serif", serif;
+  font-size: 3.4rem;
+  font-weight: 100;
+  color: hsl(24, 5%, 18%);
 }
 
 .starter-section p {
-    font-size: 1.3rem;
-    margin: 25px 0px 30px 0px;
-    color: hsl(30, 10%, 34%);
+  font-size: 1.1rem;
+  margin: 25px 0px 30px 0px;
+  color: hsl(30, 10%, 34%);
 }
 
 .prepair-section {
-    background-color: hsl(330, 100%, 98%);
-    padding: 30px;
-    border-radius: 20px;
-    font-size: 1.4;
-    margin: 40px 0px;
+  background-color: hsl(330, 100%, 98%);
+  padding: 30px;
+  border-radius: 20px;
+  font-size: 1.4;
+  margin: 40px 0px;
 }
 .prepair-section h3 {
-    color: hsl(332, 51%, 32%);
-    font-size: 1.7;
-    margin-bottom: 15px;
+  color: hsl(332, 51%, 32%);
+  font-size: 1.7;
+  margin-bottom: 15px;
 }
 
 .prepair-section ul {
-
-    line-height: 2;
-    list-style-position: inside;
+  line-height: 2;
+  list-style-position: inside;
 }
 
 .prepair-section ul li {
-    position: relative;
-    padding: 0em 1em; 
-    color: hsl(30, 10%, 34%);
-} 
+  position: relative;
+  padding: 0em 1em;
+  color: hsl(30, 10%, 34%);
+}
 ul li::marker {
-    font-size: 0.9em; /* Adjust the size of the bullet */
-    color: hsl(332, 51%, 32%); /* Change the color of the bullet */
+  font-size: 0.9em; /* Adjust the size of the bullet */
+  color: hsl(332, 51%, 32%); /* Change the color of the bullet */
+}
+
+.ingerdients-section h2 {
+  font-size: 2rem;
+  margin: 0px 0px 20px 0px;
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+  font-weight: 100;
+}
+
+.ingerdients-section ul {
+  line-height: 2;
+  list-style-position: inside;
+}
+
+.ingerdients-section ul li {
+  position: relative;
+  padding: 0em 0.5em;
+  color: hsl(30, 10%, 34%);
+}
+ul li::marker {
+  font-size: 0.9em; /* Adjust the size of the bullet */
+  color: hsl(14, 45%, 36%);
+}
+hr {
+  margin: 30px 0px;
+  border-top-color: hsl(29, 100%, 95%);
+}
+.instructions h2 {
+  font-size: 2rem;
+  margin: 0 0 20px 0;
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+  font-weight: 100;
+}
+
+.instructions ol {
+  line-height: 2;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.instructions ol li {
+  padding: 0 0.5em;
+  color: hsl(30, 10%, 34%);
+}
+
+.instructions ol li::marker {
+  font-size: 0.9em;
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.nutrition h2 {
+  font-size: 2rem;
+  margin: 0 0 20px 0;
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+  font-weight: 100;
+}
+
+.nutrition p {
+  font-size: 1.1rem;
+  margin: 0px 0px 30px 0px;
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition table {
+  width: 100%;
+  margin: 20px 0px 50px 0px;
+  border-collapse: collapse; /* Ensure borders do not overlap */
+}
+
+.nutrition table tr:not(:last-child) td {
+  border-bottom: 1px solid black; /* Add bottom border to all rows except the last */
+}
+
+.nutrition table td {
+  padding: 12px; /* Optional: Adds padding to table cells for better spacing */
+}
+
+.nutrition table .type {
+  color: hsl(30, 10%, 34%);
+  font-weight: 400;
+}
+
+.nutrition table .value {
+  color: hsl(14, 45%, 36%);
+  font-weight: 800;
+}
+
+.attribution {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 575.98px) {
+    html {
+        font-size: 13px;
+      }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    html {
+        font-size: 14px;
+      }
+}
+
+@media (min-width: 1200px) {
+    html {
+    font-size: 16px;
+  }
 }
