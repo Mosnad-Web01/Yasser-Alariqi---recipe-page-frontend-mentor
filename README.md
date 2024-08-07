@@ -2,7 +2,11 @@
 
 The Recipe Page project is a well-structured and visually appealing recipe page designed to showcase a simple omelette recipe. This project highlights essential web development skills, including HTML, CSS, and responsive design. It provides users with clear instructions, ingredient lists, and nutritional information in a user-friendly format.
 
-![Recipe Page Screenshot](./screenshot.png) <!-- Make sure to replace this path with the actual path to your screenshot -->
+
+### Live Version
+
+- **Live Site URL**: [View the live version here](https://yasseresam.github.io/Front-End-Mentor-Recipe-page/)
+
 
 ### Features
 
@@ -38,8 +42,5 @@ The Recipe Page project is a well-structured and visually appealing recipe page 
 **Phone View:**
 ![Phone Preview](./phonescreen.png) <!-- Make sure to replace this path with the actual path to your screenshot -->
 
-### Live Version
-
-- **Live Site URL**: [View the live version here](https://yasseresam.github.io/Front-End-Mentor-Recipe-page/)
 
 This project serves as an example of clean and efficient web design, focusing on usability and responsiveness.
