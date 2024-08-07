@@ -29,8 +29,6 @@ The Recipe Page project is a well-structured and visually appealing recipe page 
 
 - **Semantic HTML5 Markup**
 - **CSS Custom Properties**
-- **Flexbox**
-- **CSS Grid**
 - **Mobile-First Workflow**
 - **Google Fonts**
 
